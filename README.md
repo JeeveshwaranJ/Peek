@@ -1,4 +1,4 @@
-# 🌟 Peek — macOS Quick Look for Windows
+# 🌟 Peek — Quick Look for Windows
 
 **Peek** is a lightweight, blazing-fast, and premium desktop utility that brings the magic of macOS-style instant file previews to Windows. 
 
@@ -70,42 +70,6 @@ Go to the [Peek GitHub Releases](https://github.com/) page and download the late
 | **`Spacebar`** | Show preview of selected file / Hide active preview | Windows Explorer / Peek |
 | **`Escape`** | Close active preview | Peek Focused |
 | **`Left / Right / Up / Down`** | Move Explorer selection (Preview updates live!) | Windows Explorer |
-
----
-
-## 💻 Developer Setup Guide
-
-If you'd like to build, modify, or run **Peek** from source code:
-
-### 1. Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) (v18+) and npm installed.
-
-### 2. Install Dependencies
-```bash
-# Clone the repository and install dependencies
-cd peek
-npm install
-```
-
-### 3. Run in Development Mode
-Starts the Vite local hot-reload dev server and boots up the Electron window:
-```bash
-npm run dev
-```
-
-### 4. Build Production Executable
-Compiles Vite assets and packages the app into a standard Windows installer (`dist/Peek Setup 1.0.0.exe`):
-```bash
-npm run dist
-```
-
----
-
-## 📜 Technical Stack
-- **Backend Framework**: Electron, Node.js.
-- **Frontend Framework**: React, Vite, TailwindCSS, Framer Motion.
-- **Keyhook Utility**: C# .NET Shell COM Query Hook.
-- **Diagnostic Tracers**: electron-log.
 
 ---
 
